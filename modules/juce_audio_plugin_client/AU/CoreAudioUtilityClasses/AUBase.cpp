@@ -1968,7 +1968,7 @@ static void AddNumToDictionary (CFMutableDictionaryRef dict, CFStringRef key, SI
 	CFRelease (num);
 }
 
-#define kCurrentSavedStateVersion 0
+#define kCurrentSavedStateVersion 1
 
 OSStatus			AUBase::SaveState(		CFPropertyListRef * outData)
 {
